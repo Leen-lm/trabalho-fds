@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: rgb(39, 27, 219);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+ul {
+    list-style: square;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(42, 67, 212, 0.671);
+}
+
+.cabecalho .autor-da-pagina {
+    font-size: 36px;
+    color: aliceblue;
+    padding: 15px 45px;
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 3px 30px black;
+}
+
+
+.sobre-mim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo {
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding: 0px 17px 3px 17px;
+    border-bottom: 2px solid white;
+}
+
+.sobre-mim .biografia {
+    text-align: justify;
+    font-size: 20px;
+    margin: 10px 30px;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.26);
+}
+
+.mensagem-botao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7px;
+}
+
+#botao-mensagem {
+    font-size: 14px;
+    font-weight: 600;
+    border: 2px solid rgb(91, 22, 241);
+    border-radius: 50px;
+    padding: 15px;
+    box-shadow: 0px 3px 30px black;
+    
+}
+#botao-mensagem:hover{
+    font: 15px;
+    color: white;
+    border: 2px solid white;
+    background-color: black;
+    box-shadow: 0px 3px 30px whitesmoke;
+    transition: all 0.35s ease-out;
+    cursor: pointer;
+}
+
+
+#mensagem-motivacional{
+    display: none;
+}
+
+#mensagem-motivacional.visivel {
+    margin-top: 30px;
+    display: block;
+}
+
+.sobre-meus-hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobre-meus-hobbies .hobbies {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.sobre-meus-hobbies .hobbies .hobby {
+    margin: 8px;
+}
+
+.sobre-meus-hobbies .imagem-hobby {
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 30px black;
+}
+
+.paises-que-gosto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paises-que-gosto .titulo {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.paises-que-gosto .tabela-de-paises {
+    border: 2px solid white;
+    padding: 30px 100px 30px 50px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.26);
+}
+
+
+.paises-que-gosto .tabela-de-paises .pais {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.paises-que-gosto .tabela-de-paises .pais .imagem-pais img {
+    width: 300px;
+    margin-left: 10px;
+    box-shadow: 0px 3px 30px black;
+    border: 3px solid white;
+}
+
+.paises-que-gosto .tabela-de-paises .pais .imagem-pais img:hover {
+    box-shadow: 0px 3px 30px whitesmoke;
+    cursor: pointer;
+    transition: all 0.35s ease-out;
+}
+
+.recomendacao-de-site {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recomendacao-de-site .sobre-recomendacao {
+    text-align: justify;
+    font-size: 20px;
+    margin: 10px 30px;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.26);
+}
+
+.recomendacao-de-site .sobre-recomendacao .link-recomendacao {
+    text-decoration: none;
+    color: white;
+}
+
+.recomendacao-de-site .sobre-recomendacao .link-recomendacao:hover {
+    color: blueviolet;
+}
+
+.recomendacao-de-site .link-recomendacao-fora {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.26);
+    color: white;
+    font-size: 30px;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 15px 0px 50px 0px;
+    box-shadow: 0px 3px 30px black;
+}
+
+.recomendacao-de-site .link-recomendacao-fora:hover {
+    background-color: rgb(147, 124, 252);
+    box-shadow: 0px 3px 30px whitesmoke;
+    transition: all 0.25s ease-out;
+}
